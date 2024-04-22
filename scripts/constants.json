@@ -1,5 +1,4 @@
 {
-    "MAX_BYTES": 32000,
 	"CIRCUIT_GEN_CONCURRENCY_LIM": 10,
 	"VERIFICATION_KEY_HASH_PREFIX": "generated_circuit_data/vkey_chunk_",
 	"BB_BINARY": "~/.nargo/backends/acvm-backend-barretenberg/backend_binary"
