@@ -1,0 +1,2 @@
+generated_circuit_data/verification_key_hashes.json filter=lfs diff=lfs merge=lfs -text
+generated_circuit_data filter=lfs diff=lfs merge=lfs -text
