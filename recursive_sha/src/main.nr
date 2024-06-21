@@ -1,7 +1,7 @@
 use dep::std;
 
-// Amount of bytes this circuit will consume from encoded_data
-global BYTELEN = 226;
+// Amount of bytes this circua it will consume from encoded_data
+global BYTELEN = 63; 
 // the amount of Field chunks needed to store BYTELEN amount of u8s should always be => ceil(BYTELEN/31)
 global BYTELEN_CHUNK = (BYTELEN + 30) / 31;
 // overflow, if bytelen mod 31 is equal to 0 then we set overflow equal to 31

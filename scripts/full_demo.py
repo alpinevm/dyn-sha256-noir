@@ -144,6 +144,8 @@ async def build_sha256_proof_and_input(
             chunk_folder, get_chunk_file_name(math.floor((bytelen - 1) / 1000))
         ),
     )
+    print("VKEY AS FIELDS")
+    print(vkey_as_fields)
     print("done")
     build_folder = await initialize_sha256_build_folder(bytelen)
 
